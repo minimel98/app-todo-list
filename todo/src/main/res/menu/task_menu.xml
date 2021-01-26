@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_task_checkall"
+          android:title="@string/check_all"
+          android:icon="@drawable/ok"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_task_uncheckall"
+          android:title="@string/uncheck_all"
+          android:icon="@drawable/notok"
+          app:showAsAction="ifRoom"/>
+
+</menu>
